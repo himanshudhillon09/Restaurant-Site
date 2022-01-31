@@ -5,8 +5,12 @@ height: 40vw;
 
 
 
-.card {
+.menu {
+    display: flex-box;
     width: 24rem;
+    background-color: aqua;
+    border: brown solid 2px;
+    padding: 2px;
 }
 
 .card-header{
@@ -14,3 +18,8 @@ height: 40vw;
     text-align: center;
 }
 
+.navbar-logo{
+    margin-top: -6px;
+    height: 40px;
+    width: 40px;
+}
